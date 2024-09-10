@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* padding: 10px; */
+    background-color: #f4f4f4;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.icons {
+    display: none;
+}
+.icons p {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.main-section {
+    display: block;
+    padding: 20px 0;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    padding-top: 20px;
+}
+
+.text h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.text p {
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0073e6;
+    color: white;
+}
+
+.wi{width: 100%;
+height: 100%;}
+.ali{background: url(https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   width: 100%;
+   height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 10px 10px 50px 0px ;
+}
+
+
+@media (min-width:1080px){
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        /* padding: 10px; */
+        background-color: #f4f4f4;
+    }
+           
+    
+    .photo img {
+        width: 90%;
+        height: 80%;
+    margin:5%;   }
+
+    .main-section {
+        
+        padding: 20px 100px 100px 0px ;
+        display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px 20px 20px 20px;
+       }
+     
+       .text {
+       
+        padding: 30px 0px 50px 0px;
+      
+        
+       
+    }
+    .text h1 {
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+    .text p {
+        text-align: center;
+        font-size: 30px;
+        color: #333;
+    }
+    .icons {
+        display: flex;}
+}
